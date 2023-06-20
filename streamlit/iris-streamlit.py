@@ -6,7 +6,7 @@ import requests
 header_image = Image.open('assets/header-iris.png')
 st.image(header_image)
 st.title("IRIS Classifier")
-st.text("Supporte by: Pacmann AI | Created by: Dony Firman ")
+st.text("Supporte by: Pacmann AI | Created by: Dony Firman Fajariza ")
 st.subheader("Just enter variable below then clik predict button :sunglasses:")
 
 # create form

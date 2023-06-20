@@ -48,7 +48,7 @@ jobs:
           END
     - name: Deploy to EC2
       env:
-        PATH_FILE: iris-classifier
+        PATH_FILE: mlprocess_iris_classifier
         API_SERVICE_IMAGE: iris-classifier-api
         STREAMLIT_SERVICE_IMAGE: iris-classifier-streamlit
       run: |

@@ -53,7 +53,7 @@ jobs:
         STREAMLIT_SERVICE_IMAGE: iris-classifier-streamlit
       run: |
           ssh deploy_ec2 "mkdir temp"
-          ssh deploy_ec2 "git clone https://github.com/farrelarrizal/iris-classifier.git temp"
+          ssh deploy_ec2 "git clone https://github.com/donyfirmanf/mlprocess_iris_classifier.git temp"
           ssh deploy_ec2 "rsync -a temp/ $PATH_FILE"
           ssh deploy_ec2 "rm -rf temp/"
           ssh deploy_ec2 "cd $PATH_FILE"
